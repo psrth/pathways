@@ -1,37 +1,3 @@
-/* .profileInfo {
-    margin-top: 6vh;
-    margin-bottom: 2vh;
-}
-
-.profilePhoto {
-    max-height: 50px;
-    width: 100%;
-    border-radius: 50px;
-}
-
-.profileInfo .profileName {
-    padding-top: 20px;
-    font-size: 1.6em;
-    color: #1A4058;
-}
-
-.profileInfo .profileID {
-    padding-top: 5px;
-    font-size: 1.1em;
-    color: #666666;
-    font-weight: 500;
-}
-
-.profileID span {
-    color: black;
-}
-
-.profileInfo .profileDesc {
-    padding-top: 10px;
-    font-size: 1em;
-    color: #1A4058;
-} */
-
 .profileInfo {
     display: flex;
     flex-direction: row;
@@ -93,8 +59,10 @@
     display: flex;
     flex-direction: column;
     padding-top: 105px;
-    margin-left: 200px;
-}
+    padding-left: 100px;
+    align-self: flex-start;
+    justify-content: flex-end;
+}   
 
 .profileFollow .followButton {
     background-color: white;
@@ -126,5 +94,7 @@
     margin-top: 8px;
     font-weight: 500;
     display: flex;
+    width: 300px;
+    justify-content: flex-end;
     flex-direction: row;
 }
