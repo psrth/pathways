@@ -4,7 +4,7 @@ import GetPathway from './components/GetPathway/GetPathway';
 import CreateEditPathway from './screens/CreateEditPathway/CreateEditPathway'
 import SearchPage from "../src/screens/SearchPage/SearchPage"
 import SearchResultPage from "../src/screens/SearchResultPage/SearchResultPage";
-import UserProfile from "../src/screens/UserProfile/UserProfile";
+import ProfilePage from "../src/screens/ProfilePage/ProfilePage";
 import GithubAuth from './components/GithubAuth/GithubAuth';    
 
 import './App.css'
@@ -15,7 +15,7 @@ class App extends Component {
             <Fragment>
                 <Switch>
                     <Route path="/" exact component={SearchPage} />
-                    <Route path="/profile" exact component={UserProfile}/>
+                    <Route path="/profile" exact component={ProfilePage}/>
                     <Route path="/create" exact component={CreateEditPathway} />
                     <Route path="/create/:pathwayId" exact component={CreateEditPathway} />
                      <Route path="/pathway" component={GetPathway} />

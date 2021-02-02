@@ -1,0 +1,27 @@
+/* <div className='ProfileSection'>
+                    <div className='ProfileBioSection'>
+                        <ProfileBio content={props.userdata}/>
+                    </div>
+                    <div className='ProfileMainSection'>
+                        <ProfileLeft content={props.userdata} />
+                        <ProfileMain content={props.userdata.pathwayData}/>
+                    </div>
+                </div> */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.ProfileSection {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+}
+
+.ProfileBioSection {
+    background-color: white;
+    height: 180px;
+}
+
+.ProfileMainSection {
+    display: flex;
+    flex-direction: row;
+}

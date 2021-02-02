@@ -8,7 +8,8 @@
     margin: 8px;
     width: 40px;
     text-align: center;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     padding: 2px;
     border-radius: 20px;
     font-size: 14px;

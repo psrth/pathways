@@ -4,6 +4,7 @@
   --primary-red: 255, 0, 0;
   --primary: rgba(var(--primary-blue), 0.6);
   --highlight: rgba(var(--primary-blue), 0.05);
+  --dark-gray: #888888;
   --light-gray: #9999998a;
   --light-red: rgba(var(--primary-red), 0.5);
   --very-light-gray: rgba(221, 221, 221, 0.54);

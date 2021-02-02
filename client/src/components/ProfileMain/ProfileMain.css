@@ -1,6 +1,8 @@
 .profileMain {
     margin: 3vh 10% 0 10%;
     min-height: 97vh;
+    margin-top: 200px;
+
 }
 
 .profileMain .tabContainer {

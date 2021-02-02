@@ -17,20 +17,15 @@ class ProfileBio extends Component {
                     <div>
                         <ProfileInfo bio={this.props.content.bio}/>
                     </div>
-                    <hr />
                     <div>
                         <ProfileStats content={this.props.content.pathwayData}/>
                     </div>
-                    <hr />
-                    <div className='createPathwayLink'>
+                    {/* <div className='createPathwayLink'>
                         <Link to="/create">
                             <FontAwesomeIcon icon={faPlus} />
                             <span>Create a Pathway</span>
                         </Link>
-                    </div>
-                </div>
-                <div className='profileFooter'>
-                    pathways.
+                    </div> */}
                 </div>
             </div>
         );

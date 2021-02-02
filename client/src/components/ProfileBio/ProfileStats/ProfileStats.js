@@ -33,8 +33,9 @@ class ProfileStats extends Component {
 
         return(
             <div className='profileStats'>
-                {stats}
+                {/* {stats} */}
             </div>
+
         );
     }
 }
